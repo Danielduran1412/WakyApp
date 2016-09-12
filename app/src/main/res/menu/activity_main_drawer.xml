@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_sesion_recorrido"
+            android:icon="@drawable/ic_action_send_now"
+            android:title="Sesión de recorrido" />
+        <item
+            android:id="@+id/menu_mapa"
+            android:icon="@drawable/ic_action_location_found"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/menu_historial_viajes"
+            android:icon="@drawable/ic_action_storage"
+            android:title="Historial de viajes" />
+        <item
+            android:id="@+id/menu_seccion_ahorro"
+            android:icon="@drawable/ic_action_network_cell"
+            android:title="Sección de ahorro" />
+    </group>
+
+    <item android:title="Ajustes">
+        <menu>
+            <item
+                android:id="@+id/menu_cuenta_usuario"
+                android:icon="@drawable/ic_action_person"
+                android:title="Cuenta de usuario" />
+            <item
+                android:id="@+id/menu_configuracion"
+                android:icon="@drawable/ic_action_settings"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/menu_cerrar_sesion"
+                android:icon="@drawable/ic_action_warning"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
