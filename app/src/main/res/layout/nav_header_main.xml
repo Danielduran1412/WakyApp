@@ -13,26 +13,11 @@
     android:weightSum="1">
 
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:src="@mipmap/ic_wakywheel_com"
-        android:id="@+id/imageView"
-        android:layout_weight="0.33" />
+        android:id="@+id/imageView" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Waky App"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:layout_weight="0.33" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:text="Ahorra con tu Waky Wheel"
-        android:id="@+id/textView"
-        android:layout_weight="0.33" />
 
 </LinearLayout>
